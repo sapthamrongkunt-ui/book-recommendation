@@ -44,6 +44,12 @@ body {
   font-weight: 300;
 }
 
+.K2D-h6 {
+  font-family: 'K2D', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+} 
+
 a {
   font-family: 'K2D', sans-serif;
   font-weight: 400;
