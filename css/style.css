@@ -1,22 +1,27 @@
-
-
 .text-center-div {
-    text-align: center;    /* จัดตัวอักษรให้อยู่ตรงกลางแนวนอน */
-    display: flex;         /* ใช้ flexbox เพื่อจัดแนวเนื้อหา */
-    flex-direction: column;
-    justify-content: center; /* จัดให้อยู่กลางแนวตั้ง (ถ้าความสูงกำหนดไว้) */
-    align-items: center;     /* จัดให้อยู่กลางแนวนอน */ }
+  text-align: center;
+  /* จัดตัวอักษรให้อยู่ตรงกลางแนวนอน */
+  display: flex;
+  /* ใช้ flexbox เพื่อจัดแนวเนื้อหา */
+  flex-direction: column;
+  justify-content: center;
+  /* จัดให้อยู่กลางแนวตั้ง (ถ้าความสูงกำหนดไว้) */
+  align-items: center;
+  /* จัดให้อยู่กลางแนวนอน */
+}
 
 /* div{
         border : 2px solid purple
     }   */
-  
+
 .bg-color-green {
-  background-color: #698885; /* พื้นหลังสีเขียว */
+  background-color: #698885;
+  /* พื้นหลังสีเขียว */
 }
 
 .text-color-beige {
-  color: #E9D3BE; /* ตัวอักษรสีเบจ */
+  color: #E9D3BE;
+  /* ตัวอักษรสีเบจ */
 }
 
 .Athiti {
@@ -25,15 +30,23 @@
 }
 
 .indent-first-line {
-  text-indent: 60px; /* เยื้องบรรทัดแรก 30 พิกเซล */
+  text-indent: 60px;
+  /* เยื้องบรรทัดแรก 30 พิกเซล */
 }
 
 body {
-      background-color: #f5ede4;
+  background-color: #f5ede4;
 }
 
 
 .K2D {
   font-family: 'K2D', sans-serif;
   font-weight: 300;
+}
+
+a {
+  font-family: 'K2D', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #4d6967;
 }
